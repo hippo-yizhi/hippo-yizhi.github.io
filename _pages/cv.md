@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "My Journey in Engineering and Innovation"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,56 +9,70 @@ redirect_from:
 
 {% include base_path %}
 
+------
+
+**[A PDF version of my CV is available here.](/files/cv_yizhi.pdf)**
+
+
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **M.S. in Computer Engineering**, Columbia University, New York, NY (Expected Dec 2024)  
+  GPA: 3.6/4.0  
+  *Relevant Courses*: Algorithms, Cloud Computing, Formal Verifications, Intro to Blockchain, Database, Computer Networks, Embedded Systems, Hardware Security
 
-Work experience
+* **B.S. in Electrical and Computer Engineering**, Ohio State University, Columbus, OH (Aug 2018 – Dec 2022)  
+  GPA: 3.5/4.0, Honors: Cum Laude  
+  *Dean’s List*: Spring 2020, Autumn 2020, Spring 2021, Autumn 2021, Spring 2022  
+  *Relevant Courses*: Operating System, Computer Architecture, Advanced Digital Design, Software Development & Design
+
+Work& Teaching Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **Teaching Assistant**  
+  * Introduction to Digital Logic, Ohio State University  
+  * Jan 2022 – May 2022
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Programming Languages**: C, C++, C#, Assembly, Java, Python, Promela, SystemVerilog, VHDL, HTML
+* **Software Proficiency**: 
+  * Database Management: DataGrip, MySQL  
+  * Embedded Development: ArduinoIDE, Xilinx  
+  * Scientific Computing: MATLAB  
+  * IDEs: Eclipse, Visual Studio  
+  * Code Management: Git, GitHub  
+  * Operating Systems: Windows, Linux  
+  * AI & Machine Learning: PyTorch  
+  * Containerization & Virtualization: Docker, Kubernetes, QEMU, KVM  
+  * Cloud Computing: AWS, Azure, FaaS  
+  * CAD: Solidworks  
+  * Script & Network Monitoring: Wireshark, Bash  
+  * Security & Debugging: GDB, SMT solver
 
-Publications
+Research and Project Experience
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
+* **ARM TrustZone Streaming Client Project** (Hardware Security), Columbia University <span style="float: right; font-style: italic; font-size: smaller;">Jan 2024 – Present</span>  
+  * Designed and implemented a secure streaming media client based on ARM TrustZone (TZ) technology for video content confidentiality  
+  * Developed a Rich Application (RA) to handle encrypted video streams from the server, using a Trusted Application (TA) for decryption with OP-TEE framework to simulate TEE and Rich Execution Environment communication  
+
+* **Online Job Search Platform**, Columbia University <span style="float: right; font-style: italic; font-size: smaller;">Aug 2023 – Dec 2023</span>  
+  * Developed an intuitive user interface with customizable features through AWS Management Console  
+  * Utilized Amazon S3 for secure, real-time data management and adopted a modular approach using AWS microservices
+
+* **Formal Verification Proxy Server Project**, Columbia University <span style="float: right; font-style: italic; font-size: smaller;">Aug 2023 – Dec 2023</span>  
+  * Worked on a proxy server for client-server communications, focusing on multithreading and formal verification with Promela and SPIN  
+  * Verified eight critical safety and liveness properties to improve system reliability and efficiency
+
+* **The Affection of Adding Noise on Discriminator in GANs**, Ohio State University <span style="float: right; font-style: italic; font-size: smaller;">Jan 2022 – Dec 2022</span>  
+  * Established an automated fuzzing system to enhance GAN output quality by updating noises in the discriminator  
+  * Automated noise updating based on feedback, tracking loss trends to refine generator and discriminator performance
+
+* **Smart Assistive Cane Design Project**, Cornell University <span style="float: right; font-style: italic; font-size: smaller;">Jun 2022 – Jul 2022</span>  
+  * Built a smart assistive cane using the Robot Operating System (ROS) framework and Raspberry Pi  
+  * Developed an analysis module in Python with motion planning, state estimation, and evaluation features
+
+Contact Information
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* **Email**: yizhiw2024@gmail.com  
+* **LinkedIn**: [Yizhi Wang](https://www.linkedin.com/in/yizhiwang1/)  
+
