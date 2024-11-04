@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my personal site! I'm Yizhi Wang, a current Master’s student in Computer Engineering at Columbia University, where I explore the intersections of cloud computing, hardware security, and blockchain technology. Previously, I completed my Bachelor’s degree in Electrical and Computer Engineering at Ohio State University, graduating Cum Laude with a solid foundation in operating systems, computer architecture, and software design.
+Welcome to my personal site <img src="/images/hi.png" alt="meow happy paws" width="17" style="vertical-align: middle; padding-bottom: 4px;">! I’m Yizhi Wang, a current Master’s student in Computer Engineering at [Columbia University](https://www.columbia.edu/). With a strong foundation in data analysis, software, and hardware, I specialize in system building, cloud computing, data-driven applications, and embedded systems. My interdisciplinary approach to engineering enables me to tackle complex technical challenges with innovative solutions.
 
 ### Interests
-I am passionate about leveraging emerging technologies to solve real-world problems, particularly in secure, cloud-based architectures and assistive technology. As I continue my studies and projects, I am excited about opportunities to advance my expertise in computer engineering and contribute meaningfully to the field.
 
+I'm deeply passionate about harnessing emerging technologies to address real-world challenges, particularly in data analysis, secure and efficient application/system design, and assistive technology. With a background spanning frontend and backend development as well as hardware integration, I’m eager to continue advancing my skills and making meaningful contributions in these areas, blending technical expertise with impactful, user-centered solutions.
 
 ### Education
 - **Columbia University, New York, NY**  
@@ -20,22 +20,51 @@ I am passionate about leveraging emerging technologies to solve real-world probl
 
 - **Ohio State University, Columbus, OH**  
   Bachelor of Science in Electrical and Computer Engineering, GPA 3.5/4.0  
-  *Honors*: Cum Laude, Dean’s List (Spring 2020, Autumn 2020, Spring 2021, Autumn 2021, Spring 2022)  
+  <span style="color:#8B0000;"><b><i>Honors</i></b></span>: *Cum Laude*, *Dean’s List* (Spring 2020, Autumn 2020, Spring 2021, Autumn 2021, Spring 2022)  
 
 ### Skills
-My technical skill set spans programming languages such as C++, Python, and Java, and extends to embedded development, AI, cloud computing, and security. I’m also adept with tools like Docker, Kubernetes, QEMU, AWS, and various debugging and network monitoring tools.
+
+<span style="font-size: 1em;">My technical expertise spans multiple programming languages, including C/C++, Python, and Java, as well as embedded systems, AI, cloud computing, data analysis, security, and networking. I am proficient with a range of development environments and tools, such as UNIX, QEMU, PyTorch, AWS, Git, CAD, and Azure, along with debugging and network monitoring tools like Wireshark, and SMT solvers. This diverse skill set enables me to tackle complex challenges across software engineering, scientific computing, and secure, scalable system development.</span>
 
 ### Research & Projects
-#### ARM TrustZone Streaming Client Project
-Designed and implemented a secure video streaming client using ARM TrustZone (TZ) technology, emphasizing confidentiality and efficient data decryption. Leveraged the OP-TEE framework to manage secure communications between the Trusted Execution Environment and the Rich Application environment.
 
-#### Online Job Search Platform
-Collaborated to build a job search platform on AWS, integrating modular microservices and S3 storage to ensure security, real-time updates, and efficient data management.
+<div class="project-container">
+  <div class="image-container" style="padding-top: 10px;">
+    <img src="/images/tz.jpg" alt="ARM TrustZone Streaming Client Project Image" class="project-image">
+  </div>
+  <div class="project-description">
+    <h4>ARM TrustZone Streaming Client Project <span class="subtitle">[Security in IoT Devices]</span></h4>
+    <p>Designed and implemented a secure video streaming client using ARM TrustZone (TZ) technology to ensure video confidentiality. Developed a server application for sending encrypted streams and a Trusted Application (TA) to securely handle decryption, leveraging the OP-TEE framework for enabling secure communication.</p>
+  </div>
+</div>
 
-#### Formal Verification Proxy Server Project
-Contributed as a developer to create a stable, efficient proxy server supporting multithreaded, secure client-server communication. Focused on formal verification using Promela and SPIN, enhancing system reliability through verified safety and liveness properties.
+<div class="project-container">
+  <div class="image-container" style="padding-top: 10px;">
+    <img src="/images/workshop.jpg" alt="Smart Assistive Cane Design Image" class="project-image">
+  </div>
+  <div class="project-description">
+    <h4>Smart Assistive Cane Design <span class="subtitle">[Practical and Useful IoT Devices]</span></h4>
+    <p>Developed an assistive cane application using robot operating system for individuals with mobility impairments. Integrated Python-based sensor modules and Raspberry Pi to help the cane detect obstacles and provide navigation support in real-time, enhancing user independence and safety.</p>
+  </div>
+</div>
 
-#### Smart Assistive Cane Design
-Developed a smart assistive cane application using ROS, integrated with motion planning algorithms, and deployed on Raspberry Pi for state estimation and action controls.
+<div class="project-container">
+  <div class="image-container" style="padding-top: 9px;">
+    <img src="/images/formal.jpg" alt="Formal Verification Proxy Server Project Image" class="project-image">
+  </div>
+  <div class="project-description">
+    <h4>Formal Verification Proxy Server Project <span class="subtitle">[Formal Verify Design Security]</span></h4>
+    <p>Developed a robust proxy server capable of securely managing concurrent client requests, ensuring reliable performance under load. Applied formal verification techniques, including Promela and SPIN, to rigorously validate critical security and reliability properties. This project strengthened my expertise in network/protocol security and formal verification methods.</p>
+  </div>
+</div>
 
+<div class="project-container">
+  <div class="image-container" style="padding-top: 10px;">
+    <img src="/images/aws.jpg" alt="Online Job Search Platform Image" class="project-image">
+  </div>
+  <div class="project-description">
+    <h4>Online Job Search Platform <span class="subtitle">[User Interfaces and Cloud Backend]</span></h4>
+    <p>Developed an AWS-based job search platform with a modular architecture, providing a customizable user interface and using S3 service for secure data storage in cloud and real-time updates. Implemented various AWS microservices to ensure scalability and efficient data management.</p>
+  </div>
+</div>
 

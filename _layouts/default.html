@@ -9,6 +9,48 @@ layout: compress
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+    <style>
+      .project-container {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 25px;
+      }
+
+      .image-container {
+        padding-top: 15px; /* 控制图片与顶部的距离 */
+        margin-right: 15px; /* 图片和文本之间的间距 */
+      }
+
+      .project-image {
+        width: 150px; /* 固定宽度 */
+        max-height: 120px; /* 限制图片最大高度 */
+        object-fit: cover; /* 裁剪图片以适应容器 */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 添加阴影效果 */
+        border-radius: 8px; /* 圆角效果，使图片更柔和 */
+      }
+
+      .project-description {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+      }
+
+      .project-description h4 {
+        font-size: 1em; /* 增大标题字体 */
+        margin: 0 0 5px 0;
+        font-weight: bold;
+      }
+
+      .project-description p {
+        font-size: 0.8em; /* 调整简介字体 */
+        margin: 0;
+      }
+      .subtitle {
+        font-size: 0.7em; /* 较小字体 */
+        color: #555; /* 更柔和的颜色 */
+      }
+    </style>
   </head>
 
   <body>

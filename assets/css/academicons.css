@@ -569,3 +569,14 @@ border-radius: .1em;
 .ai-inverse {
   color: #fff;
 }
+
+.map-container {
+    width: 25px; /* 设置宽度 */
+    height: 25px; /* 设置高度 */
+    overflow: hidden; /* 防止超出内容 */
+    transform: scale(0.5); /* 缩小至50%，可根据需要调整 */
+    transform-origin: top left; /* 设置缩放的基准点 */
+    display: inline-block;
+    vertical-align: middle; /* 如果需要调整与文字的对齐 */
+}
+
