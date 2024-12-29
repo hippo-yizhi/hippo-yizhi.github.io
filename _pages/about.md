@@ -15,12 +15,14 @@ I'm deeply passionate about harnessing emerging technologies to address real-wor
 
 ### Education
 - **Columbia University, New York, NY**  
-  Master of Science in Computer Engineering, GPA 3.6/4.0 (Expected Dec 2024)  
-  *Courses include*: Algorithms, Cloud Computing, Formal Verifications, Blockchain, Database, Embedded Systems
+  Master of Science in Computer Engineering, GPA 3.6/4.0 (Aug 2023 - Dec 2024)  
+  *Courses include*: Algorithms, Cloud Computing, Formal Verifications, Blockchain, Database, Computer Networks, Embedded Systems, Hardware Security, Modeling and Performance, Reinforcement Learning, Content Delivery Networks
 
 - **Ohio State University, Columbus, OH**  
-  Bachelor of Science in Electrical and Computer Engineering, GPA 3.5/4.0  
-  <span style="color:#8B0000;"><b><i>Honors</i></b></span>: *Cum Laude*, *Dean’s List* (Spring 2020, Autumn 2020, Spring 2021, Autumn 2021, Spring 2022)  
+  Bachelor of Science in Electrical and Computer Engineering, GPA 3.5/4.0 (Aug 2018 - Dec 2022)  
+  <span style="color:#8B0000;"><b><i>Honors</i></b></span>: *Cum Laude*, *Dean’s List* (SP 2020, AU 2020, SP 2021, AU 2021, SP 2022, and AU 2022)
+  *Courses include*: Operating System, Computer Architecture, Advanced Digital Design, Software Development and Design
+  *Teaching Assistant*: Introduction to Digital Logic (Jan 2022 - May 2022)
 
 ### Skills
 
